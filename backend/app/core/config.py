@@ -13,8 +13,9 @@ class Config:
 
     DATABASE_URL: str = os.getenv("DATABASE_URL", "")
     FRONTEND_URL: str = os.getenv("FRONTEND_URL", "")
+    NGROK_PROXY_URL: str = os.getenv("NGROK_PROXY_URL", "")
 
-    FREE_TIER_MEMBERSHIP_LIMIT: int = 2
+    FREE_TIER_MEMBERSHIP_LIMIT: int = 1
     PRO_TIER_MEMBERSHIP_LIMIT: int = 0 # unlimited
 
 

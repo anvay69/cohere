@@ -7,7 +7,7 @@ from app.core.database import Base
 
 
 class TaskStatus(str, enum.Enum):
-    PENDING = "pendnig"
+    PENDING = "pending"
     STARTED = "started"
     COMPLETED = "completed"
 
